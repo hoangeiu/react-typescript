@@ -17,7 +17,7 @@ const NewGoal = ({ onAddGoal }: NewGoalProps) => {
     onAddGoal(enteredGoal, enteredSummary);
 
     /* Reset form */
-    e.currentTarget.reset();
+    // e.currentTarget.reset();
   };
 
   return (
